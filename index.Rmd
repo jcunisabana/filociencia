@@ -1,0 +1,496 @@
+---
+title: "Historia y filosofía de la ciencia"
+author: ''
+date: ''
+always_allow_html: yes
+output:
+ 
+  html_document:
+    theme: united
+    toc: yes
+    toc_depth: 4
+    toc_float: yes
+  pdf_document:
+    latex_engine: xelatex
+    toc: no
+    keep_tex: true
+lang: es-co
+header-includes:
+- \usepackage{fontspec}
+- \setmainfont{Adobe Jenson Pro}
+- \linespread{1.05}
+---
+<script>
+!--    google analytics-->
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74338484-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+## Descripción del curso
+
+<img align="right" src="img/1.jpg" title="Unknown + Heikenwaelder Hugo [CC BY-SA 2.5], via Wikimedia Commons" style="width:350;height:350px;">
+
+La filosofía de la ciencia trata los problemas fundamentales que surgen al interior de la ciencia y la práctica ciencitífica. Puede ser dividia en dos grandes ramas: la filosofía de la ciencia general y las filosofía de ciencias específicas.
+
+La primera busca entender la ciencia como una actividad que está en la posición privilegiada de ofrecer conocimiento del mundo; la segunda busca entender preguntas particulares que nacen dentro de las diferentes ramas de la ciencia.
+
+El objetivo central de este curso es familiarizar al estudiante con preguntas fundamentales en filosofía de la ciencia general y algunas de las problemáticas que surgen dentro de las ciencias particulares y de las que se ocupan las filosofías de las ciencias específicas.
+
+**Profesor**: [Juan Camilo Espejo-Serna](../index.html)\ 
+
+**Horario y salón**: Lunes, 8:00 - 9:00 am, B106; Viernes 9:00 - 11:00 am, ADPORTAS 406-B 
+
+**Página web del seminario**: https://jcunisabana.github.io/filociencia
+
+----
+
+## Objetivos
+
+- Comprender el lenguaje propio de la filosofía para aportar en las discusiones sobre la ciencia 						
+					
+- Distinguir, relacionar y sistematizar conocimientos aportados por la ciencia específicas y la filosofía, para dar cuenta epistemológica de las ciencia en general y superar la fragmentación.						
+						
+- Planear y elaborar textos interpretativos y argumentativos con base en historia y la filosofía de la ciencia
+
+- Utilizar TIC para apoyar el estudio filosófico de la ciencia.
+
+----
+
+## Metodología
+
+
+#### **Antes de la sesión**
+
+- Todos los estudiantes deberán subir un control de lectura por tarde **75 horas** antes de la sesión.
+
+#### **Durante la sesión**
+
+- Todos deben atender con cuidado a la presentación del profesor y formular preguntas al respecto. Revisen si entienden la exposición y si están de acuerdo; pregunten por las relaciones con los temas anteriormente expuestos.
+
+
+---
+
+## Plan semanal 
+
+`r Semana <- 1`
+
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+library(readxl)
+library(knitr)
+library(kableExtra)
+
+PlanSemanal <-  read_excel("HFC.xlsx",sheet = "info")
+Notas <- read_excel("HFC.xlsx", sheet = "notas")
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+```
+
+<iframe width="100%" height="400" align="middle" src="1.html" border="0">
+</iframe>
+<a href="1.html">Presentación en pantalla completa</a>
+
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
+
+<iiframe width="100%" height="400" align="middle" src="2.html" border="0">
+</iiframe>
+<a href="2.html">Presentación en pantalla completa</a>
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
+
+<iiframe width="100%" height="400" align="middle" src="3.html" border="0">
+</iiframe>
+<a href="3.html">Presentación en pantalla completa</a>
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
+
+<iiframe width="100%" height="400" align="middle" src="4.html" border="0">
+</iiframe>
+<a href="4.html">Presentación en pantalla completa</a>
+
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("", PlanSemanal$Recordatorio[Semana]) `
+
+
+<iiframe width="100%" height="400" align="middle" src="4.html" border="0">
+</iiframe>
+<a href="4.html">Presentación en pantalla completa</a>
+
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
+
+
+<iiframe width="100%" height="400" align="middle" src="6.html" border="0">
+</iiframe>
+<a href="6.html">Presentación en pantalla completa</a>
+
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
+
+
+<iiframe width="100%" height="400" align="middle" src="9.html" border="0">
+</iiframe>
+<a href="9.html">Presentación en pantalla completa</a>
+
+
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
+
+
+
+<iiframe width="100%" height="400" align="middle" src="9.html" border="0">
+</iiframe>
+<a href="9.html">Presentación en pantalla completa</a>
+
+
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
+
+
+<iiframe width="100%" height="400" align="middle" src="11.html" border="0">
+</iiframe>
+<a href="11.html">Presentación en pantalla completa</a>
+
+`r Semana <- Semana +1`
+
+
+---
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
+
+
+<iiframe width="100%" height="400" align="middle" src="12.html" border="0">
+</iiframe>
+<a href="12.html">Presentación en pantalla completa</a>
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
+
+
+<iiframe width="100%" height="400" align="middle" src="13.html" border="0">
+</iiframe>
+<a href="13.html">Presentación en pantalla completa</a>
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
+
+
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
+
+
+
+<iiframe width="100%" height="400" align="middle" src="14.html" border="0">
+</iiframe>
+<a href="14.html">Presentación en pantalla completa</a>
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
+
+
+
+<iiframe width="100%" height="400" align="middle" src="15.html" border="0">
+</iiframe>
+<a href="15.html">Presentación en pantalla completa</a>
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
+
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
+
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer:  `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("", PlanSemanal$Recordatorio[Semana]) `
+
+
+
+
+----
+
+
+## Evaluación
+
+#### **Talleres**
+
+Los talleres consistirán en una serie de preguntas que los alumnos deberán solucionar en la plataforma virtual. Es deber del estudiante entender bien cómo funciona la plataforma con anticipación a la fecha límite de entrega del taller.
+
+#### **Control de lectura**
+Extensión: entre 400 y 1000 palabras.
+
+Para cada lectura asignada, los estudiantes deben escribir un texto corto con la tesis principal, tres afirmaciones/presuposiciones del texto y tres preguntas/desafíos al texto.
+
+Los controles deberán ser subidos a la plataforma virtual a más tardar **75 horas** antes de la sesión. Todos los estudiantes empiezan con 5.0 en esta nota; por cada vez que no se participe dentro del rango de tiempo especificado, la nota será disminuida de acuerdo con los siguientes parámetros: primera vez: -0.5; segunda vez: -1.0; tercera vez: -1.5; cuarta vez: -2.0.
+
+Todos tienen un control de lectura "de gracia". Es decir, pueden dejar de entregar uno sin problema; el primer control de lectura que les falte no cuenta. Por ejemplo, si no entregan un control de lectura y entregan todos los demás, su nota igual queda en 5.0.
+
+
+#### **Calificación**
+
+```{r echo=FALSE}
+library(knitr)
+library(kableExtra)
+
+  kable(Notas[1 ,c(2,3,5,6,8,9)]) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"), full_width = F, position = "left")
+```
+
+<p style="color:white; background-color:indigo; padding: 5px;">**Toda** entrega tarde injustificada verá la nota disminuida en 0.5 unidades por cada día tarde. No haber entregado antes de la hora acordada equivale a entregar un día tarde.</p>
+
+
+
+[//]: # (El c??digo de abajo sirve para generar los ID de todas las secciones y as?? poder hacer links autom??ticamente con los nombres de las secciones nada más. bonito.)
+ 
+<script type="text/javascript">
+  // When the document is fully rendered...
+  $(document).ready(function() {
+    // ...select all header elements...
+    $('h1, h2, h3, h4, h5').each(function() {
+      // ...and add an id to them corresponding to their 'titles'
+      $(this).attr('id', $(this).html());
+    });
+  });
+</script>
+
+
