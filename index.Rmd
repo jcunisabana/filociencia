@@ -38,7 +38,7 @@ header-includes:
 
 <img align="right" src="img/1.jpg" title="Unknown + Heikenwaelder Hugo [CC BY-SA 2.5], via Wikimedia Commons" style="width:350;height:350px;">
 
-La filosofía de la ciencia trata los problemas fundamentales que surgen al interior de la ciencia y la práctica ciencitífica. Puede ser dividia en dos grandes ramas: la filosofía de la ciencia general y las filosofía de ciencias específicas.
+La filosofía de la ciencia trata los problemas fundamentales que surgen al interior de la ciencia y la práctica científica. Puede ser dividia en dos grandes ramas: la filosofía de la ciencia general y las filosofía de ciencias específicas.
 
 La primera busca entender la ciencia como una actividad que está en la posición privilegiada de ofrecer conocimiento del mundo; la segunda busca entender preguntas particulares que nacen dentro de las diferentes ramas de la ciencia.
 
