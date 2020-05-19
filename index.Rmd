@@ -315,8 +315,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
 
-<iiframe width="100%" height="400" align="middle" src="13.html" border="0">
-</iiframe>
+<iframe width="100%" height="400" align="middle" src="13.html" border="0">
+</iframe>
 <a href="13.html">Presentación en pantalla completa</a>
 
 ---
@@ -368,9 +368,6 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 
 
-<iiframe width="100%" height="400" align="middle" src="14.html" border="0">
-</iiframe>
-<a href="14.html">Presentación en pantalla completa</a>
 
 ---
 `r Semana <- Semana +1`
@@ -389,9 +386,29 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
 
+<iframe width="100%" height="400" align="middle" src="14.html" border="0">
+</iframe>
+<a href="14.html">Presentación en pantalla completa</a>
 
-<iiframe width="100%" height="400" align="middle" src="15.html" border="0">
-</iiframe>
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
+
+<iframe width="100%" height="400" align="middle" src="15.html" border="0">
+</iframe>
 <a href="15.html">Presentación en pantalla completa</a>
 
 ---
@@ -410,23 +427,9 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
-
----
-`r Semana <- Semana +1`
-
-### Semana `r Semana`
-
-```{r echo=FALSE}
-
-  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
-  column_spec(1:2, width = "30em")
-
-```
-
-- Leer: `r PlanSemanal$Texto[Semana]`
-
-- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
+<iframe width="100%" height="400" align="middle" src="18.html" border="0">
+</iframe>
+<a href="18.html">Presentación en pantalla completa</a>
 
 ---
 `r Semana <- Semana +1`
