@@ -36,29 +36,39 @@ header-includes:
 
 ## Descripción del curso
 
-<img align="right" src="img/1.jpg" title="Unknown + Heikenwaelder Hugo [CC BY-SA 2.5], via Wikimedia Commons" style="width:350;height:350px;">
+<img align="right" src="img/1.jpg" title="Unknown + Heikenwaelder Hugo [CC BY-SA 2.5], via Wikimedia Commons" style="width:350;height:350px;padding: 10px;">
 
-La filosofía de la ciencia trata los problemas fundamentales que surgen al interior de la ciencia y la práctica científica. Puede ser dividia en dos grandes ramas: la filosofía de la ciencia general y las filosofía de ciencias específicas.
+La filosofía de la ciencia trata varios problemas filosóficos que surgen al interior de la ciencia y la práctica científica. Este curso es una introducción a estas preguntas alrededor de tres cuestiones: 
 
-La primera busca entender la ciencia como una actividad que está en la posición privilegiada de ofrecer conocimiento del mundo; la segunda busca entender preguntas particulares que nacen dentro de las diferentes ramas de la ciencia.
+1. ¿Qué es la ciencia?
+1. ¿Qué es el progreso científico? 
+1. ¿Cuál es el lugar de la ciencia en la sociedad?
 
-El objetivo central de este curso es familiarizar al estudiante con preguntas fundamentales en filosofía de la ciencia general y algunas de las problemáticas que surgen dentro de las ciencias particulares y de las que se ocupan las filosofías de las ciencias específicas.
+El objetivo central de este curso es familiarizar al estudiante con preguntas fundamentales de la filosofía de la ciencia general y, si el tiempo lo permite, algunas de las problemáticas que surgen dentro de las ciencias particulares y de las que se ocupan las filosofías de las ciencias específicas. 
+
+Para ello, primero, revisaremos un poco de la historia de la física para tener una aproximación a la pregunta ¿qué es la ciencia? La idea es que para saber qué es la ciencia tenemos que ver primero algunos casos concretos de la historia de la ciencia. Para eso estudiaremos algo de la historia de la física y la astronomía: empezaremos con algo de ciencia aristotélica y geometría euclidieana, luego veremos un poco de astronomía con el modelo ptolemáico y el copernicano  y terminaremos con algo de física newtoniana, relativista y cuántica.
+
+Después veremos dos posibles formas de responder a la pregunta por la naturaleza de la ciencia, la postura del empirismo lógico y la de Thomas Kuhn. De acuerdo con una, la ciencia es una cálculo axiomático con una interpretación que la vincula con el mundo. De acuerdo con la otra, la ciencia es una práctica humana específica, con todos los vicios y virtudes que esto implica. 
+
+Finalizaremos con algunas cuestion el rol de la ciencia en la sociedad. Para ello veremos lo que tiene decir la filosofía de la ciencia feminista sobre la forma en que debemos entender la influencia del género en la práctica científica. También veremos una pregunta sobre la responsabilidad que tiene la ciencia sobre los decubrimientos científicos y una manera de aproximarse a esta pregunta. Si el tiempo lo permite, veremos, al final del semestre, algunos problemas en las ciencias específicas, dependiendo de los intereses particulares de los estudiantes matriculados.
 
 **Profesor**: [Juan Camilo Espejo-Serna](../index.html)\ 
 
-**Horario y salón**: Lunes, 10:00 - 11:00 am, B106; Viernes 9:00 - 11:00 am, ADPORTAS 406-B 
+**Horario**: Martes, 8:00 - 10:00; Viernes 8:00 - 9:00 am.
 
-**Página web del seminario**: https://jcunisabana.github.io/filociencia
+**Grupo de MS Teams**: Por definir
+
+**Cuaderno de OneNote**: Por definir
 
 ----
 
 ## Objetivos
 
-- Comprender el lenguaje propio de la filosofía para aportar en las discusiones sobre la ciencia 						
-					
-- Distinguir, relacionar y sistematizar conocimientos aportados por la ciencia específicas y la filosofía, para dar cuenta epistemológica de las ciencia en general y superar la fragmentación.						
-						
-- Planear y elaborar textos interpretativos y argumentativos con base en historia y la filosofía de la ciencia
+- Dominar el lenguaje propio de la discusión filosófica sobre la ciencia para aportar en las discusiones sobre la naturaleza de la ciencia, del progreso científico y su lugar en la sociedad.
+
+- Distinguir, relacionar y sistematizar conocimientos aportados por la ciencia específicas y la filosofía para dar cuenta de la naturaleza de la ciencia, del progreso científico y su lugar en la sociedad.						
+
+- Plantear autónoma y críticamente relaciones entre distintos fenómenos científicos para interpretarlos y establecer vínculos entre el conocimiento teórico y la práctica científica.
 
 - Utilizar TIC para apoyar el estudio filosófico de la ciencia.
 
@@ -73,7 +83,9 @@ El objetivo central de este curso es familiarizar al estudiante con preguntas fu
 
 #### **Durante la sesión**
 
-- Todos deben atender con cuidado a la presentación del profesor y formular preguntas al respecto. Revisen si entienden la exposición y si están de acuerdo; pregunten por las relaciones con los temas anteriormente expuestos.
+- Todos deben atender con cuidado a la presentación del profesor y formular preguntas al respecto. Los controles de lectura transforman la clase en la medida en que las presentaciones se irán ajustando a lo que ustedes reflejen en los controles de lectura.
+
+- Revisen si entienden la exposición y si están de acuerdo; pregunten por las relaciones con los temas anteriormente expuestos.
 
 
 ---
@@ -337,18 +349,9 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 
 
----
-`r Semana <- Semana +1`
-
-### Semana `r Semana`
-
-```{r echo=FALSE}
-
-  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
-  column_spec(1:2, width = "30em")
-
-```
-
+<iframe width="100%" height="400" align="middle" src="13.html" border="0">
+</iframe>
+<a href="13.html">Presentación en pantalla completa</a>
 
 ---
 `r Semana <- Semana +1`
@@ -362,12 +365,10 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 ```
 
-- Leer: `r PlanSemanal$Texto[Semana]`
 
-- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
-
-
+<iframe width="100%" height="400" align="middle" src="14.html" border="0">
+</iframe>
+<a href="14.html">Presentación en pantalla completa</a>
 
 ---
 `r Semana <- Semana +1`
@@ -407,9 +408,11 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
+
 <iframe width="100%" height="400" align="middle" src="15.html" border="0">
 </iframe>
 <a href="15.html">Presentación en pantalla completa</a>
+
 
 ---
 `r Semana <- Semana +1`
@@ -445,7 +448,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 - Leer: `r PlanSemanal$Texto[Semana]`
 
-- Hacer:  `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("", PlanSemanal$Recordatorio[Semana]) `
+- Hacer: Repasar todas las presentaciones `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
 
 
@@ -462,11 +465,17 @@ Los talleres consistirán en una serie de preguntas que los alumnos deberán sol
 #### **Control de lectura**
 Extensión: entre 400 y 1000 palabras.
 
-Para cada lectura asignada, los estudiantes deben escribir un texto corto con la tesis principal, tres afirmaciones/presuposiciones del texto y tres preguntas/desafíos al texto.
+Para cada lectura asignada, los estudiantes deben escribir un texto corto con la tesis principal, tres afirmaciones/presuposiciones del texto y tres preguntas/desafíos al texto. 
 
-Los controles deberán ser subidos a la plataforma virtual a más tardar **75 horas** antes de la sesión. Todos los estudiantes empiezan con 5.0 en esta nota; por cada vez que no se participe dentro del rango de tiempo especificado, la nota será disminuida de acuerdo con los siguientes parámetros: primera vez: -0.5; segunda vez: -1.0; tercera vez: -1.5; cuarta vez: -2.0.
+Los controles deberán ser subidos a la plataforma virtual a más tardar **75 horas** antes de la sesión. Todos los estudiantes empiezan con 5.0 en esta nota. Por cada vez que no se participe dentro del rango de tiempo especificado, la nota será disminuida de acuerdo con los siguientes parámetros: primera vez: -0.5; segunda vez: -1.0; tercera vez: -1.5; cuarta vez: -2.0.
 
-Todos tienen un control de lectura "de gracia". Es decir, pueden dejar de entregar uno sin problema; el primer control de lectura que les falte no cuenta. Por ejemplo, si no entregan un control de lectura y entregan todos los demás, su nota igual queda en 5.0.
+#### **Incumplimiento**
+<p style="color:white; background-color:indigo; padding: 5px;">
+*La vida nos da sorpresas; sorpresas nos da la vida.* 
+Por eso, todos tienen un control de lectura "de gracia". Es decir, pueden dejar de entregar uno sin problema; el primer control de lectura que les falte no cuenta. Por ejemplo, si no entregan un control de lectura y entregan todos los demás, su nota igual queda en 5.0..</p>
+
+
+Para todo lo demás, es importante avisar al profesor. Hablemos. No me tienen que contar sus problemas personales pero es importante que si se encuentran en una situación en la que ven que no pueden cumplir con los requerimientos de clase me avisen con la mayor anticipación posible y encontremos un plan para solventar el problema en lo que respecta a la clase. Insisto: hablemos, no se pierdan **:)**. 
 
 
 #### **Calificación**
@@ -479,7 +488,6 @@ library(kableExtra)
   kable_styling(bootstrap_options = c("striped", "hover"), full_width = F, position = "left")
 ```
 
-<p style="color:white; background-color:indigo; padding: 5px;">**Toda** entrega tarde injustificada verá la nota disminuida en 0.5 unidades por cada día tarde. No haber entregado antes de la hora acordada equivale a entregar un día tarde.</p>
 
 
 
