@@ -36,13 +36,16 @@ header-includes:
 
 ## Descripción del curso
 
-<img align="right" src="img/1.jpg" title="Unknown + Heikenwaelder Hugo [CC BY-SA 2.5], via Wikimedia Commons" style="width:350;height:350px;padding: 10px;">
+<img style="float: right; padding: 5px" src="img/1.jpg">
 
 La filosofía de la ciencia trata varios problemas filosóficos que surgen al interior de la ciencia y la práctica científica. Este curso es una introducción a estas preguntas alrededor de tres cuestiones: 
 
 1. ¿Qué es la ciencia?
 1. ¿Qué es el progreso científico? 
-1. ¿Cuál es el lugar de la ciencia en la sociedad?
+1. ¿Cuál es el lugar de la ciencia en la sociedad?</th>
+ 
+ 
+ 
 
 El objetivo central de este curso es familiarizar al estudiante con preguntas fundamentales de la filosofía de la ciencia general y, si el tiempo lo permite, algunas de las problemáticas que surgen dentro de las ciencias particulares y de las que se ocupan las filosofías de las ciencias específicas. 
 
