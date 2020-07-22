@@ -35,15 +35,13 @@ header-includes:
 
 
 ## Descripción del curso
+<img src="img/12.jpg" style="padding:5px;">
 
-<img style="float: right; padding: 5px" src="img/1.jpg">
-
-La filosofía de la ciencia trata varios problemas filosóficos que surgen al interior de la ciencia y la práctica científica. Este curso es una introducción a estas preguntas alrededor de tres cuestiones: 
-
-1. ¿Qué es la ciencia?
-1. ¿Qué es el progreso científico? 
-1. ¿Cuál es el lugar de la ciencia en la sociedad?</th>
+ <div style="display: flex; flex-wrap: wrap;">
  
+<div style="flex: 0 1 100%;">
+La filosofía de la ciencia trata varios problemas filosóficos que surgen al interior de la ciencia y la práctica científica. Este curso es una introducción a estas preguntas alrededor de tres cuestiones: <ol><li>¿Qué es la ciencia?</li><li>¿Qué es el progreso científico? </li><li>¿Cuál es el lugar de la ciencia en la sociedad?</li> </ol></div> </div>
+
  
  
 
@@ -57,13 +55,15 @@ Finalizaremos con algunas cuestion el rol de la ciencia en la sociedad. Para ell
 
 **Profesor**: [Juan Camilo Espejo-Serna](../index.html)\ 
 
+**Página web**: http://jcunisabana.github.io/filociencia/
+
 **Horario**: Martes, 8:00 - 10:00; Viernes 8:00 - 9:00 am.
 
-**Grupo de MS Teams**: Por definir
+**Grupo de MS Teams**: [Aquí](https://teams.microsoft.com/l/team/19%3a47148dea91c344d3b1ef43d15d45fa29%40thread.tacv2/conversations?groupId=71020fbe-eba5-41d3-a820-ca568eca3871&tenantId=aca51631-00fe-490d-91ab-163ef87260ee)
 
-**Cuaderno de OneNote**: Por definir
+**Cuaderno de MS OneNote**: [Aquí](https://unisabanaedu.sharepoint.com/sites/Section_36000127041858/_layouts/15/Doc.aspx?sourcedoc={e8b4e6a5-613b-44fe-bde9-53e3ed12f849}&action=edit&wd=target%28Bienvenido.one%7C1fabb179-cc36-46c1-ab31-56a4f83ea4bb%2F%29&wdorigin=717)
 
-----
+<img src="img/borde.jpg" style="padding:5px;">
 
 ## Objetivos
 
@@ -75,7 +75,7 @@ Finalizaremos con algunas cuestion el rol de la ciencia en la sociedad. Para ell
 
 - Utilizar TIC para apoyar el estudio filosófico de la ciencia.
 
-----
+<img src="img/borde.jpg" style="padding:5px;">
 
 ## Metodología
 
@@ -91,7 +91,7 @@ Finalizaremos con algunas cuestion el rol de la ciencia en la sociedad. Para ell
 - Revisen si entienden la exposición y si están de acuerdo; pregunten por las relaciones con los temas anteriormente expuestos.
 
 
----
+<img src="img/borde.jpg" style="padding:5px;">
 
 ## Plan semanal 
 
@@ -133,8 +133,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
-<iframe width="100%" height="400" align="middle" src="2.html" border="0">
-</iframe>
+<iiframe width="100%" height="400" align="middle" src="2.html" border="0">
+</iiframe>
 <a href="2.html">Presentación en pantalla completa</a>
 
 ---
@@ -153,8 +153,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
-<iframe width="100%" height="400" align="middle" src="3.html" border="0">
-</iframe>
+<iiframe width="100%" height="400" align="middle" src="3.html" border="0">
+</iiframe>
 <a href="3.html">Presentación en pantalla completa</a>
 
 ---
@@ -173,8 +173,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
-<iframe width="100%" height="400" align="middle" src="4eng.html" border="0">
-</iframe>
+<iiframe width="100%" height="400" align="middle" src="4eng.html" border="0">
+</iiframe>
 <a href="4eng.html">Presentación en pantalla completa</a>
 
 
@@ -195,8 +195,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 - Hacer: `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("", PlanSemanal$Recordatorio[Semana]) `
 
 
-<iframe width="100%" height="400" align="middle" src="4eng.html" border="0">
-</iframe>
+<iiframe width="100%" height="400" align="middle" src="4eng.html" border="0">
+</iiframe>
 <a href="4eng.html">Presentación en pantalla completa</a>
 
 
@@ -217,8 +217,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
 
-<iframe width="100%" height="400" align="middle" src="9.1.html" border="0">
-</iframe>
+<iiframe width="100%" height="400" align="middle" src="9.1.html" border="0">
+</iiframe>
 <a href="9.1.html">Presentación en pantalla completa</a>
 
 
@@ -239,8 +239,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
 
-<iframe width="100%" height="400" align="middle" src="9.2.html" border="0">
-</iframe>
+<iiframe width="100%" height="400" align="middle" src="9.2.html" border="0">
+</iiframe>
 <a href="9.2.html">Presentación en pantalla completa</a>
 
 
@@ -263,8 +263,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 
 
-<iframe width="100%" height="400" align="middle" src="9.3.html" border="0">
-</iframe>
+<iiframe width="100%" height="400" align="middle" src="9.3.html" border="0">
+</iiframe>
 <a href="9.3.html">Presentación en pantalla completa</a>
 
 
@@ -286,8 +286,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
 
-<iframe width="100%" height="400" align="middle" src="11.html" border="0">
-</iframe>
+<iiframe width="100%" height="400" align="middle" src="11.html" border="0">
+</iiframe>
 <a href="11.html">Presentación en pantalla completa</a>
 
 `r Semana <- Semana +1`
@@ -309,8 +309,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
 
-<iframe width="100%" height="400" align="middle" src="12.html" border="0">
-</iframe>
+<iiframe width="100%" height="400" align="middle" src="12.html" border="0">
+</iiframe>
 <a href="12.html">Presentación en pantalla completa</a>
 
 ---
@@ -330,8 +330,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
 
-<iframe width="100%" height="400" align="middle" src="13.html" border="0">
-</iframe>
+<iiframe width="100%" height="400" align="middle" src="13.html" border="0">
+</iiframe>
 <a href="13.html">Presentación en pantalla completa</a>
 
 ---
@@ -352,8 +352,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 
 
-<iframe width="100%" height="400" align="middle" src="13.html" border="0">
-</iframe>
+<iiframe width="100%" height="400" align="middle" src="13.html" border="0">
+</iiframe>
 <a href="13.html">Presentación en pantalla completa</a>
 
 ---
@@ -369,8 +369,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 ```
 
 
-<iframe width="100%" height="400" align="middle" src="14.html" border="0">
-</iframe>
+<iiframe width="100%" height="400" align="middle" src="14.html" border="0">
+</iiframe>
 <a href="14.html">Presentación en pantalla completa</a>
 
 ---
@@ -390,8 +390,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
 
-<iframe width="100%" height="400" align="middle" src="14.html" border="0">
-</iframe>
+<iiframe width="100%" height="400" align="middle" src="14.html" border="0">
+</iiframe>
 <a href="14.html">Presentación en pantalla completa</a>
 
 
@@ -412,8 +412,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
 
-<iframe width="100%" height="400" align="middle" src="15.html" border="0">
-</iframe>
+<iiframe width="100%" height="400" align="middle" src="15.html" border="0">
+</iiframe>
 <a href="15.html">Presentación en pantalla completa</a>
 
 
@@ -433,8 +433,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
-<iframe width="100%" height="400" align="middle" src="18.html" border="0">
-</iframe>
+<iiframe width="100%" height="400" align="middle" src="18.html" border="0">
+</iiframe>
 <a href="18.html">Presentación en pantalla completa</a>
 
 ---
@@ -456,7 +456,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 
 
-----
+<img src="img/borde.jpg" style="padding:5px;">
 
 
 ## Evaluación

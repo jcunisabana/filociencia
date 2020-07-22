@@ -32,6 +32,7 @@ color: #af0;
 /* Variant : for left positioned triangle
 ------------------------------------------ */
 
+
 .triangle-border.left {
   margin-left:30px;
 }
@@ -368,7 +369,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', end
 /*para ubicar en dos esquinas*/
 .doscuadros{width: 50%; height: 100%; float: left; }
 
-.trescuadros{width: 33%; height: 100%; float: left;     padding: 10px;
+.trescuadros{width: 31%; height: 100%; float: left;     padding: 5px;
 }
 /*para agregar a las postit*/
 
