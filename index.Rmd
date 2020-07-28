@@ -133,8 +133,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
-<iiframe width="100%" height="400" align="middle" src="2.html" border="0">
-</iiframe>
+<iframe width="100%" height="400" align="middle" src="2.html" border="0">
+</iframe>
 <a href="2.html">Presentación en pantalla completa</a>
 
 ---
