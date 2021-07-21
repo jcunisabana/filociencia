@@ -51,13 +51,13 @@ Para ello, primero, revisaremos un poco de la historia de la física para tener 
 
 Después veremos dos posibles formas de responder a la pregunta por la naturaleza de la ciencia, la postura del empirismo lógico y la de Thomas Kuhn. De acuerdo con una, la ciencia es una cálculo axiomático con una interpretación que la vincula con el mundo. De acuerdo con la otra, la ciencia es una práctica humana específica, con todos los vicios y virtudes que esto implica. 
 
-Finalizaremos con algunas cuestion el rol de la ciencia en la sociedad. Para ello veremos lo que tiene decir la filosofía de la ciencia feminista sobre la forma en que debemos entender la influencia del género en la práctica científica. También veremos una pregunta sobre la responsabilidad que tiene la ciencia sobre los decubrimientos científicos y una manera de aproximarse a esta pregunta. Si el tiempo lo permite, veremos, al final del semestre, algunos problemas en las ciencias específicas, dependiendo de los intereses particulares de los estudiantes matriculados.
+Finalizaremos con algunas cuestion el rol de la ciencia en la sociedad. Para ello veremos lo que tiene decir la filosofía de la ciencia feminista sobre la forma en que debemos entender la influencia del género en la práctica científica. También veremos una pregunta sobre la responsabilidad que tiene la ciencia sobre los descubrimientos científicos y una manera de aproximarse a esta pregunta. Si el tiempo lo permite, veremos, al final del semestre, algunos problemas en las ciencias específicas, dependiendo de los intereses particulares de los estudiantes matriculados.
 
 **Profesor**: [Juan Camilo Espejo-Serna](../index.html)\ 
 
 **Página web**: http://jcunisabana.github.io/filociencia/
 
-**Horario**: Martes, 8:00 - 10:00; Viernes 8:00 - 9:00 am.
+**Horario**: Lunes, 11:00 - 12:00; Miércoles 13:00 - 15:00.
 
 **Grupo de MS Teams**: [Aquí](https://teams.microsoft.com/l/team/19%3a47148dea91c344d3b1ef43d15d45fa29%40thread.tacv2/conversations?groupId=71020fbe-eba5-41d3-a820-ca568eca3871&tenantId=aca51631-00fe-490d-91ab-163ef87260ee)
 
@@ -133,7 +133,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
-<iframe width="100%" height="400" align="middle" src="2.html" border="0">
+<iiframe width="100%" height="400" align="middle" src="2.html" border="0">
 </iframe>
 <a href="2.html">Presentación en pantalla completa</a>
 
@@ -153,7 +153,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
-<iframe width="100%" height="400" align="middle" src="3.html" border="0">
+<iiframe width="100%" height="400" align="middle" src="3.html" border="0">
 </iframe>
 <a href="3.html">Presentación en pantalla completa</a>
 
@@ -173,7 +173,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
-<iframe width="100%" height="400" align="middle" src="4.html" border="0">
+<iiframe width="100%" height="400" align="middle" src="4.html" border="0">
 </iframe>
 <a href="4.html">Presentación en pantalla completa</a>
 
@@ -194,7 +194,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 - Hacer: `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("", PlanSemanal$Recordatorio[Semana]) `
 
-<iframe width="100%" height="400" align="middle" src="4.html" border="0">
+<iiframe width="100%" height="400" align="middle" src="4.html" border="0">
 </iframe>
 <a href="4.html">Presentación en pantalla completa</a>
 
@@ -215,7 +215,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
 
-<iframe width="100%" height="400" align="middle" src="6.html" border="0">
+<iiframe width="100%" height="400" align="middle" src="6.html" border="0">
 </iframe>
 <a href="6.html">Presentación en pantalla completa</a>
 
@@ -237,32 +237,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
 
-<iframe width="100%" height="400" align="middle" src="6.html" border="0">
-</iframe>
-<a href="6.html">Presentación en pantalla completa</a>
-
-
-
----
-`r Semana <- Semana +1`
-
-### Semana `r Semana`
-
-```{r echo=FALSE}
-
-  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
-  column_spec(1:2, width = "30em")
-
-```
-
-- Leer: `r PlanSemanal$Texto[Semana]`
-
-- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
-
-
-
-<iframe width="100%" height="400" align="middle" src="6.html" border="0">
+<iiframe width="100%" height="400" align="middle" src="6.html" border="0">
 </iframe>
 <a href="6.html">Presentación en pantalla completa</a>
 
@@ -286,7 +261,32 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 
 
-<iframe width="100%" height="400" align="middle" src="8.html" border="0">
+
+<iiframe width="100%" height="400" align="middle" src="6.html" border="0">
+</iframe>
+<a href="6.html">Presentación en pantalla completa</a>
+
+
+
+---
+`r Semana <- Semana +1`
+
+### Semana `r Semana`
+
+```{r echo=FALSE}
+
+  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
+  column_spec(1:2, width = "30em")
+
+```
+
+- Leer: `r PlanSemanal$Texto[Semana]`
+
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
+
+
+
+<iiframe width="100%" height="400" align="middle" src="8.html" border="0">
 </iframe>
 <a href="8.html">Presentación en pantalla completa</a>
 
@@ -311,7 +311,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 
 
-<iframe width="100%" height="400" align="middle" src="9.html" border="0">
+<iiframe width="100%" height="400" align="middle" src="9.html" border="0">
 </iframe>
 <a href="9.html">Presentación en pantalla completa</a>
 
@@ -333,7 +333,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 
 
-<iframe width="100%" height="400" align="middle" src="10.html" border="0">
+<iiframe width="100%" height="400" align="middle" src="10.html" border="0">
 </iframe>
 <a href="10.html">Presentación en pantalla completa</a>
 
@@ -355,7 +355,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 
 
-<iframe width="100%" height="400" align="middle" src="10.html" border="0">
+<iiframe width="100%" height="400" align="middle" src="10.html" border="0">
 </iframe>
 <a href="10.html">Presentación en pantalla completa</a>
 
@@ -372,7 +372,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 ```
 
-<iframe width="100%" height="400" align="middle" src="11.html" border="0">
+<iiframe width="100%" height="400" align="middle" src="11.html" border="0">
 </iframe>
 <a href="11.html">Presentación en pantalla completa</a>
 
@@ -393,7 +393,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
 
-<iframe width="100%" height="400" align="middle" src="11.html" border="0">
+<iiframe width="100%" height="400" align="middle" src="11.html" border="0">
 </iframe>
 <a href="11.html">Presentación en pantalla completa</a>
 
@@ -416,7 +416,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
 
-<iframe width="100%" height="400" align="middle" src="15.html" border="0">
+<iiframe width="100%" height="400" align="middle" src="15.html" border="0">
 </iframe>
 <a href="15.html">Presentación en pantalla completa</a>
 
@@ -439,7 +439,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 - Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
 
 
-<iframe width="100%" height="400" align="middle" src="16.html" border="0">
+<iiframe width="100%" height="400" align="middle" src="16.html" border="0">
 </iframe>
 <a href="16.html">Presentación en pantalla completa</a>
 
