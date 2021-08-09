@@ -192,7 +192,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 - Leer: `r PlanSemanal$Texto[Semana]`
 
-- Hacer: `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("", PlanSemanal$Recordatorio[Semana]) `
+- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("", PlanSemanal$Recordatorio[Semana]) `
 
 <iiframe width="100%" height="400" align="middle" src="4.html" border="0">
 </iframe>
